@@ -1,0 +1,16 @@
+node_modules/
+dist/
+
+# Local environment and credentials (the site needs no secrets).
+.env
+.env.*
+*.pem
+*.key
+.npmrc
+
+# Local tooling and desktop metadata.
+.codex/
+.agents/
+.directory
+.DS_Store
+npm-debug.log*
